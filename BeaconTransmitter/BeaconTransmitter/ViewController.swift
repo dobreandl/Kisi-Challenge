@@ -59,11 +59,10 @@ class ViewController: UIViewController {
     var bc: iBeaconTransmission!
     
     override func viewDidLoad() {
+        super.viewDidLoad()
+        
         bc = iBeaconTransmission()
         
-        
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func viewDidAppear(_ animated: Bool) {
